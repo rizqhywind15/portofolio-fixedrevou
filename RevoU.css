@@ -62,7 +62,10 @@ body {
     animation: typing 2s steps(12);
     box-sizing: border-box;
 }
-
+.home h3 {
+    font-size: 1rem;
+    text-align: justify;
+}
 .profile-photo {
     width: 300px;
     height: 300px;
@@ -76,10 +79,6 @@ body {
 /* typing effek */
 @keyframes typing {
     from {width: 0;}
-}
-.home h3 {
-    font-size: 1rem;
-    text-align: justify;
 }
 .sosial {
     position: absolute;
@@ -210,10 +209,16 @@ body {
     .home h2 {
         font-size: 0.75rem;
     }
+    .home h3 {
+        font-size: 0.7rem;
+    }
     .profile-photo {
         width: 150px;
         height: 150px;
         margin-left: 5px;
+    }
+    .revoo {
+        display: none;
     }
     .pengalaman h1 {
         font-size: 1.6rem;   
@@ -238,6 +243,9 @@ body {
         height: 75px;
         margin-left: 1px;
     }
+    .revoo {
+        display: none;
+    }
      .rounded-organisasi {
         width: 350px;
         height: 250px;
@@ -252,7 +260,7 @@ body {
         display: none;
     }
     .home h3 {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     .pengalaman h1 {
         font-size: 1.6rem;   
