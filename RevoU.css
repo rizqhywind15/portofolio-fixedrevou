@@ -160,6 +160,11 @@ body {
     text-align: justify;
     padding-top: 1rem;
 }
+.rounded-organisasi {
+    border-radius: 10%;
+    width: 500px;
+    height: 350px;
+}
 .Kerjaan {
     background-color: white;
     background-size: cover;
@@ -180,6 +185,10 @@ body {
     font-size: 15px;
     padding-top: 1rem;
 }
+.rounded-hasil {
+    width: 350px;
+    height: 500px;
+    border-radius: 10%;
 @media (max-width: 1024px) {
     .home h1 {
         font-size: 3rem; /* Ukuran font lebih kecil untuk layar medium */
@@ -229,8 +238,21 @@ body {
         height: 75px;
         margin-left: 1px;
     }
+     .rounded-organisasi {
+        width: 350px;
+        height: 250px;
+        border-radius: 10%;
+    }
+    .rounded-hasil {
+        width: 350px;
+        height: 250px;
+        border-radius: 10%;
+    }
+    .revoo {
+        display: none;
+    }
     .home h3 {
-        font-size: 0.2rem;
+        font-size: 1rem;
     }
     .pengalaman h1 {
         font-size: 1.6rem;   
